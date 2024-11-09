@@ -343,28 +343,23 @@ Write about a friendship that forms between a human and a ghost.
 Describe a day in the life of a character living in a house that changes its location daily.
 Imagine you are a character who can speak every language of the animal kingdom. How do you use this ability?
 Write about a character who can bring their imagination to life. What do they create?
-	90.	Describe a world where laughter is a form of magic.
-	91.	Write about a door that leads to different times depending on the day.
-	92.	Imagine you are a character in a video game. What’s your storyline?
-	93.	Describe a place where the seasons change every day.
-	94.	Write about a society that celebrates the full moon every month.
-	95.	Imagine you wake up in a world where everything is covered in snow, forever.
-	96.	Describe a creature that lives in people’s reflections.
-	97.	Write about a land where every river has a story to tell.
-	98.	Imagine you have a map that leads to hidden wishes.
-	99.	Describe a world where everyone has a second, hidden life.
-	100.	Write about a character who finds a new realm inside their dreams.
-	101.	Imagine you could ask one question to the universe. What would it be?
-	102.	Describe a festival where people share their most cherished memories.
-	103.	Write about a place where stars fall to the ground each night.
-	104.	Imagine you have a device that lets you listen to people’s thoughts.
-	105.	Describe a world where people live on floating islands in the sky.
-	106.	Write about a hidden garden that grants knowledge to visitors.
-	107.	Imagine you can walk through mirrors into other dimensions.
-	108.	Describe a house that rearranges its rooms every night.
-	109.	Write about a person who can change their appearance at will.
-	110.	Imagine you find a message in a bottle with instructions to a hidden place.
-	111.	Describe a town that celebrates sunsets with a special ritual.
-	112.	Write about a mysterious object that only you can see.
-	113.	Imagine you can turn into any animal. Which would you choose first?
-	114.	Describe a place where the sun never rises.
+Describe a world where laughter is a form of magic.
+Write about a door that leads to different times depending on the day.
+Imagine you are a character in a video game. What’s your storyline?
+Describe a place where the seasons change every day.
+Write about a society that celebrates the full moon every month.
+Imagine you wake up in a world where everything is covered in snow, forever.
+Describe a creature that lives in people’s reflections.
+Write about a land where every river has a story to tell.
+Imagine you have a map that leads to hidden wishes.
+Describe a world where everyone has a second, hidden life.
+Write about a character who finds a new realm inside their dreams.
+Imagine you could ask one question to the universe. What would it be?
+Describe a festival where people share their most cherished memories.
+Write about a place where stars fall to the ground each night.
+Imagine you have a device that lets you listen to people’s thoughts.
+Describe a world where people live on floating islands in the sky.
+Describe a place where the sun never rises.
+Describe a place where night and day are completely silent.
+Write a letter to a famous historical figure asking for advice.
+Imagine you can only speak in song lyrics for a day. What would you say?
