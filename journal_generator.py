@@ -13,70 +13,69 @@ if len(writing_prompts) < 365:
 
 # Define the journal template with a placeholder for the unique prompt
 journal_template = """
-\\rtf1\\ansi\\deff0
-{{\\b Date:}} {date} \\line
+Date: {date}
 
-\\b Morning Plan \\par
-\\b Ritual \\par
-"When you're ready, close your eyes and take 3 deep breaths. Ok... but now actually do it." \\par
+Morning Plan
+Ritual
+"When you're ready, close your eyes and take 3 deep breaths. Ok... but now actually do it."
 
-\\b Dump \\par
-List all the tasks you have to do today: \\line
-- Task 1 \\line
-- Task 2 \\line
-- Task 3 \\line
-- Task 4 \\line
-- Task 5 \\line
-- Task 6 \\line
-- Task 7 \\line
-- Task 8 \\line
+Dump
+List all the tasks you have to do today:
+- Task 1
+- Task 2
+- Task 3
+- Task 4
+- Task 5
+- Task 6
+- Task 7
+- Task 8
 
-\\b Prioritize \\par
-Choose the most important tasks for the day: \\line
-- Top priority \\line
-- Important/urgent \\line
-- Important/urgent \\line
-- Small task \\line
-- Small task \\line
-- Small task \\line
-- Small task \\line
+Prioritize
+Choose the most important tasks for the day:
+- Top priority
+- Important/urgent
+- Important/urgent
+- Small task
+- Small task
+- Small task
+- Small task
 
-\\b Time Box \\par
+Time Box
 Take a minute to schedule the top priority task into your day.
-Time boxing is a proven method of "making an appointment with your task." \\par
+Time boxing is a proven method of "making an appointment with your task."
 
-\\b Self-Care \\par
-What is one small thing you're going to do for yourself today? \\par
+Self-Care
+What is one small thing you're going to do for yourself today?
 
-\\b Closing \\par
-What is your mantra or something to keep in mind today? \\par
+Closing
+What is your mantra or something to keep in mind today?
 
-Now Go Own Your Day. \\par
+Now Go Own Your Day.
 
-\\b Creative Writing Prompt \\par
-Write for at least 10 minutes about the following: \\par
-"{writing_prompt}" \\par
+Creative Writing Prompt
+Write for at least 10 minutes about the following:
+"{writing_prompt}"
 
-\\b Evening Reflection \\par
+Evening Reflection
 
-\\b Thoughts from the Day \\par
-What stuck with you today? Any conversations, new ideas, or observations? \\par
+Thoughts from the Day
+What stuck with you today? Any conversations, new ideas, or observations?
 
-\\b Mindfulness \\par
-Share three things you're grateful for: \\line
-- Example: A moment of peace \\line
-- Example: A good laugh with a friend \\line
-- Example: A productive meeting \\line
+Mindfulness
+Share three things you're grateful for:
+- Example: A moment of peace
+- Example: A good laugh with a friend
+- Example: A productive meeting
 
-One thing you're proud of: \\par
-Example: Completing a challenging task at work. \\par
+One thing you're proud of:
+Example: Completing a challenging task at work.
 
-One thing you'd like to do differently in the future: \\par
-Example: Be more present during meals. \\par
+One thing you'd like to do differently in the future:
+Example: Be more present during meals.
 
-\\b Inspiration \\par
-What inspired you today? It can be a quote, a photo, an article, or anything else! \\par
-Example: "Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill \\par
+Inspiration
+What inspired you today? It can be a quote, a photo, an article, or anything else!
+Example: "Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill
 """
 
 # Loop to create 365 daily journal files
@@ -84,7 +83,7 @@ for i in range(365):
     # Calculate the date for each entry
     current_date = start_date + timedelta(days=i)
     # Format date in MM.DD.YY for file naming
-    file_name = current_date.strftime("%m.%d.%y") + " Journal.rtf"
+    file_name = current_date.strftime("%m.%d.%y") + " Journal.txt"
     # Format date for inside the journal entry
     formatted_date = current_date.strftime("%B %d, %Y")
     # Get the unique writing prompt for the day, stripping newline characters
@@ -92,8 +91,8 @@ for i in range(365):
     # Populate the template with the formatted date and unique prompt
     journal_content = journal_template.format(date=formatted_date, writing_prompt=writing_prompt)
     
-    # Write the content to an RTF file
+    # Write the content to a .txt file
     with open(file_name, 'w') as file:
         file.write(journal_content)
 
-print("365 RTF journal files with unique writing prompts have been created successfully.")
+print("365 TXT journal files with unique writing prompts have been created successfully.")
