@@ -17,22 +17,22 @@ journal_template = """
 {{\\fonttbl{{\\f0 Courier;}}}}
 \\f0
 \\b Date: {date} \\b0
-
+\\line
 \\b Morning Plan \\b0
 \\ul Ritual \\ul0
 \\"When you're ready, close your eyes and take 3 deep breaths. Ok... but now actually do it.\\"
-
+\\line
 \\b Dump \\b0
 List all the tasks you have to do today:
-\\line - [ ] 
-\\line - [ ] 
-\\line - [ ] 
-\\line - [ ] 
-\\line - [ ] 
-\\line - [ ] 
-\\line - [ ] 
-\\line - [ ] 
-
+\\line - [ ] Task 1
+\\line - [ ] Task 2
+\\line - [ ] Task 3
+\\line - [ ] Task 4
+\\line - [ ] Task 5
+\\line - [ ] Task 6
+\\line - [ ] Task 7
+\\line - [ ] Task 8
+\\line
 \\b Prioritize \\b0
 Choose the most important tasks for the day:
 \\line - [ ] Top priority
@@ -42,30 +42,40 @@ Choose the most important tasks for the day:
 \\line - [ ] Small task
 \\line - [ ] Small task
 \\line - [ ] Small task
-
+\\line
+\\ul Time Box \\ul0
+Take a minute to schedule the top priority task into your day.
+Time boxing is a proven method of \\"making an appointment with your task.\\" 
+\\line
 \\ul Self-Care \\ul0
 What is one small thing you're going to do for yourself today?
-
+\\line
 \\ul Closing \\ul0
 What is your mantra or something to keep in mind today?
-
+\\line
+Now Go Own Your Day.
+\\line
 \\b Creative Writing Prompt \\b0
 Write for at least 10 minutes about the following:
 \\"{writing_prompt}\\" 
-
+\\line
 \\b Evening Reflection \\b0
-
+\\line
 \\ul Thoughts from the Day \\ul0
 What stuck with you today? Any conversations, new ideas, or observations?
-
+\\line
 \\ul Mindfulness \\ul0
 Share three things you're grateful for:
-
+\\line - 
+\\line - 
+\\line - 
+\\line
 One thing you're proud of:
-
+Example: Completing a challenging task at work.
+\\line
 One thing you'd like to do differently in the future:
-
-
+Example: Be more present during meals.
+\\line
 \\ul Inspiration \\ul0
 What inspired you today? It can be a quote, a photo, an article, or anything else!
 }}
