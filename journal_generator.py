@@ -75,7 +75,6 @@ Example: Be more present during meals.
 
 Inspiration
 What inspired you today? It can be a quote, a photo, an article, or anything else!
-Example: "Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill
 """
 
 # Loop to create 365 daily journal files
