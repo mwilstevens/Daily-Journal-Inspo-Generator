@@ -15,8 +15,9 @@ if len(writing_prompts) < 365:
 journal_template = """
 {{\\rtf1\\ansi\\deff0
 {{\\fonttbl{{\\f0 Courier;}}}}
+{{\\colortbl;\\red0\\green0\\blue0;\\red0\\green0\\blue255;}}  # Define color table with default and blue color
 \\f0
-\\b Date: {date} \\b0
+\\cf2\\b Date: {date} \\cf0\\b0  # Use color 2 (blue) for the date
 \\line
 \\b Morning Plan \\b0
 \\ul Ritual \\ul0
